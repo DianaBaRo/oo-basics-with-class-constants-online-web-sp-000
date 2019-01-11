@@ -15,7 +15,9 @@ class Shoe
 
   def size=(size)
     @size = size
-    BRANDS << brand
+    if size == 1 
+      BRANDS << brand
+    end
   end
 
 end
