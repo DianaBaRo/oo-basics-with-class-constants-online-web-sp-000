@@ -14,11 +14,4 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
-  def size=(size)
-    @size = size
-    if size == 1
-      BRANDS << brand
-    end
-  end
-
 end
